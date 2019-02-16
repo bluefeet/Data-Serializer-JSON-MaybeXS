@@ -1,6 +1,8 @@
-Revision history for Perl extension Data::Serializer::JSON::MaybeXS.
+Revision history for Perl extension Data-Serializer-JSON-MaybeXS.
 
 {{$NEXT}}
+
+ - Migrate build tooling from Dist::Zilla to Minilla.
 
 0.01 2015-07-14
 

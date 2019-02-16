@@ -1,10 +1,8 @@
-=pod
-
-=head1 NAME
+# NAME
 
 Data::Serializer::JSON::MaybeXS - Serialize data using JSON::MaybeXS.
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
     my $serializer = Data::Serializer->new(
         serializer => 'JSON::MaybeXS',
@@ -13,15 +11,15 @@ Data::Serializer::JSON::MaybeXS - Serialize data using JSON::MaybeXS.
     my $json = $serializer->serialize( { foo=>'bar' } );
     my $data = $serializer->deserialize( $json );
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
-This L<Data::Serializer> driver uses L<JSON::MaybeXS> to serialize and
+This [Data::Serializer](https://metacpan.org/pod/Data::Serializer) driver uses [JSON::MaybeXS](https://metacpan.org/pod/JSON::MaybeXS) to serialize and
 deserialize data.
 
-=head1 OPTIONS
+# OPTIONS
 
-You may pass an options hash ref to L<Data::Serializer> and those
-options will be used when instantiating the L<JSON::MaybeXS> object:
+You may pass an options hash ref to [Data::Serializer](https://metacpan.org/pod/Data::Serializer) and those
+options will be used when instantiating the [JSON::MaybeXS](https://metacpan.org/pod/JSON::MaybeXS) object:
 
     my $serializer = Data::Serializer->new(
         serializer => 'JSON::MaybeXS',
@@ -31,27 +29,25 @@ options will be used when instantiating the L<JSON::MaybeXS> object:
         },
     );
 
-=head1 SUPPORT
+# SUPPORT
 
 Please submit bugs and feature requests to the
 Data-Serializer-JSON-MaybeXS GitHub issue tracker:
 
-L<https://github.com/bluefeet/Data-Serializer-JSON-MaybeXS/issues>
+[https://github.com/bluefeet/Data-Serializer-JSON-MaybeXS/issues](https://github.com/bluefeet/Data-Serializer-JSON-MaybeXS/issues)
 
-=head1 AUTHOR
+# AUTHOR
 
-Aran Clary Deltac <bluefeetE<64>gmail.com>
+Aran Clary Deltac <bluefeet@gmail.com>
 
-=head1 ACKNOWLEDGEMENTS
+# ACKNOWLEDGEMENTS
 
-Thanks to L<ZipRecruiter|https://www.ziprecruiter.com/>
+Thanks to [ZipRecruiter](https://www.ziprecruiter.com/)
 for encouraging their employees to contribute back to the open
 source ecosystem.  Without their dedication to quality software
 development this distribution would not exist.
 
-=head1 LICENSE
+# LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-=cut
