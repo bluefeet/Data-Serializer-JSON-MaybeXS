@@ -43,7 +43,8 @@
       "runtime" : {
          "requires" : {
             "Data::Serializer" : "0.6",
-            "JSON::MaybeXS" : "1.003003"
+            "JSON::MaybeXS" : "1.003003",
+            "perl" : "5.008001"
          }
       },
       "test" : {
