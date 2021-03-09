@@ -82,7 +82,7 @@ development this distribution would not exist.
 
 =head1 AUTHORS
 
-  Aran Clary Deltac <bluefeetE<64>gmail.com>
+    Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 LICENSE
 
